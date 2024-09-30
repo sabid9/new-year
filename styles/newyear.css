@@ -1,50 +1,51 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
 
-p{
+p {
     color: rgb(40, 39, 39);
 }
 
 
 
 
-.banner{
+.banner {
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
-    background-position: center centers;
+    background-position: center center;
     top: 100px;
     width: 100%;
     height: 100vh;
-    
-    
+
+
 }
 
-header{
+header {
     display: flex;
     text-align: right;
     margin-top: 20px;
-    
-    
+
+
 }
 
-.htext{
+.htext {
     padding-top: 250px;
     padding-left: 1200px;
     padding-right: 250px;
     position: 50%;
 }
 
-h1{
+h1 {
     font-size: 65px;
     font-weight: bold;
-    
+
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     border: none;
     padding: 10px;
@@ -55,22 +56,85 @@ h1{
 
 /* main part of the html */
 
-.first-section{
+.first-section {
     display: flex;
     text-align: left;
-    margin: 20px 200px ;
-    justify-content:center;
+    margin: 20px 200px;
+    justify-content: center;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
-.first-image{
+
+.first-image {
     margin-left: 200px;
 }
-.main-text-1{
+
+.main-text-1 {
     padding-left: 100px;
     padding-top: 200px;
     padding-right: 250px;
-    list-style: symbols(url('https://e7.pngegg.com/pngimages/718/570/png-clipart-check-mark-computer-icons-green-check-mark-2-icon-check-mark-miscellaneous-angle-thumbnail.png'));
+
 }
+
+ul {
+    color: rgb(40, 39, 39);
+    list-style: none;
+}
+
+.first-section li:before {
+    content: '✓';
+}
+
+/* here second section start */
+.second-section {
+    text-align: center;
+    margin: 50px 350px;
+}
+
+.second-list>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.second-list>h3 {
+    font-size: 30px;
+}
+
+.second-list>h4 {
+    font-size: 25px;
+    color: rgb(88, 88, 88);
+
+}
+
+.third-section {
+    background-image: url('../images/watch.png') , url('../images/gradient2.png');
+    
+    height: 250px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /* background-image: linear-gradient(to right, #FD6E0A, white); */
+    margin: 30px 350px;
+    padding: 70px 60px;
+    
+}
+.con{
+    background-color: white;
+    padding: 10px;
+    color: #FD6E0A;
+    border-radius: 3px;
+    font-size: larger;
+    border-color: #FD6E0A;
+}
+
+.third-text{
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+
+
